@@ -6,7 +6,7 @@ export default class App extends Component{
   render(){
     return (
       <View style={styles.container}>
-        <BoasVindas saudacao='Bom dia!' />
+        <BoasVindas saudacao='^-^' />
       </View>
     );
   }
@@ -17,6 +17,6 @@ const styles = StyleSheet.create({
      flex: 1,
      justifyContent: "center",
      alignItems: "center",
-     backgroundColor: '#f4e8c1',
+     backgroundColor: '#aaffee',
   },
 });
